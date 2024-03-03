@@ -1,5 +1,12 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
 .orange-square{
-    background-color: #fbcf95;
+    background-color: #f6c037;
     width: 500px;    
     height: 500px;
 
@@ -7,27 +14,28 @@
 
 .inner-text{
     color: #ffffff;
-    background-color: #ff0000;
+    background-color: #94f68d;
     font-size: 25px;
     font-family: monospace; 
     font-weight: bold;
+    margin: 0;
 }
 
 .green-square{
-    background-color: #b8f7a8;
-    width: 250px;
-    height: 250px;
+    background-color: #33ff00;
+    width: 50%;
+    height: 50%;
 
 }
 
 .blue-rectangle{
-    background-color: rgb(170, 196, 243); 
+    background-color: rgb(31, 59, 110); 
     width: 50%;
     height: 25vh;
 }
     
 .red-rectangle{
-    background-color: red; 
+    background-color: rgb(129, 50, 50); 
     width: 75vw; 
     height: 50%;
 }
